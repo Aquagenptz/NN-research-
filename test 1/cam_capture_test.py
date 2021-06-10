@@ -1,7 +1,8 @@
 import cv2
 import time
 
-cap = cv2.VideoCapture('https://s2.moidom-stream.ru/s/public/0000001203.m3u8')
+#cap = cv2.VideoCapture('https://s2.moidom-stream.ru/s/public/0000001203.m3u8')
+cap = cv2.VideoCapture(0)
 cap.set(7,60)
 
 while True:
